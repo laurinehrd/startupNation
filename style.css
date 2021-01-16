@@ -260,17 +260,47 @@ h1 {
 .contenu {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .item {
     display: flex;
     flex-direction: column;
     width: 30%;
+    margin-bottom: 3rem;
 }
 .item img {
     width: 100%;
 }
+/* .item .texte {
+    height: 150px;
+    overflow: hidden;
+} */
+.item h2 {
+    color: #336a88;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+}
+.item p {
+    display: none;
+}
+.item a {
+    text-decoration: none;
+    color: white;
+    background-color: #336a88;
+    border-radius: 5px;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
 
 @media screen and (max-width: 480px){
+    .container {
+        width: 90%;
+    }
+    h1 {
+        font-size: 3em;
+    }
     .contenu {
         display: block;
         flex-wrap: nowrap;
@@ -278,5 +308,67 @@ h1 {
     .item {
         display: flex;
         flex-direction: row;
+        width: 100%;
+    }
+    .item .image {
+        width: 30%;
+    }
+    .item .texte {
+        padding-left: 1rem;
+        width: 70%;
+    }
+    .item-reverse {
+        flex-direction: row-reverse;
+    }
+    .item-reverse .texte {
+        padding-left: 0;
+        padding-right: 1rem;
+    }
+    
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column-reverse;
+}
+footer .icones {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+}
+footer .icones img{
+    width: 50px;
+    padding: 2rem;
+}
+.footer-texte {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 480px){
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+        border-top: 2px solid black;
+    }
+    footer .icones {
+        border-bottom: none;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 50%;
+    }
+    .footer-texte {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        font-size: 0.8rem;
+    }
+    footer .icones img{
+        width: 3em;
+        height: 3em;
+        padding: 0.2rem;
     }
 }
