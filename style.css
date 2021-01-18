@@ -1,59 +1,4 @@
-@font-face {
-    font-family: 'open_sansbold';
-    src: url('opensans-bold-webfont.woff2') format('woff2'),
-         url('opensans-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
-@font-face {
-    font-family: 'open_sansbold_italic';
-    src: url('opensans-bolditalic-webfont.woff2') format('woff2'),
-         url('opensans-bolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'open_sansextrabold';
-    src: url('opensans-extrabold-webfont.woff2') format('woff2'),
-         url('opensans-extrabold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'open_sansextrabold_italic';
-    src: url('opensans-extrabolditalic-webfont.woff2') format('woff2'),
-         url('opensans-extrabolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'open_sansitalic';
-    src: url('opensans-italic-webfont.woff2') format('woff2'),
-         url('opensans-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'open_sanslight';
-    src: url('opensans-light-webfont.woff2') format('woff2'),
-         url('opensans-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'open_sanslight_italic';
-    src: url('opensans-lightitalic-webfont.woff2') format('woff2'),
-         url('opensans-lightitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 @font-face {
     font-family: 'open_sansregular';
     src: url('fonts/opensans-regular-webfont.woff2') format('woff2'),
@@ -62,98 +7,11 @@
     font-style: normal;
 
 }
-@font-face {
-    font-family: 'open_sanssemibold';
-    src: url('opensans-semibold-webfont.woff2') format('woff2'),
-         url('opensans-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
-@font-face {
-    font-family: 'open_sanssemibold_italic';
-    src: url('opensans-semibolditalic-webfont.woff2') format('woff2'),
-         url('opensans-semibolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'proza_librebold';
-    src: url('prozalibre-bold-webfont.woff2') format('woff2'),
-         url('prozalibre-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'proza_librebold_italic';
-    src: url('prozalibre-bolditalic-webfont.woff2') format('woff2'),
-         url('prozalibre-bolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 @font-face {
     font-family: 'proza_libreextrabold';
     src: url('fonts/prozalibre-extrabold-webfont.woff2') format('woff2'),
          url('fonts/prozalibre-extrabold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'proza_libreextrabold_italic';
-    src: url('prozalibre-extrabolditalic-webfont.woff2') format('woff2'),
-         url('prozalibre-extrabolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'proza_libreitalic';
-    src: url('prozalibre-italic-webfont.woff2') format('woff2'),
-         url('prozalibre-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'proza_libremedium';
-    src: url('prozalibre-medium-webfont.woff2') format('woff2'),
-         url('prozalibre-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'proza_libremedium_italic';
-    src: url('prozalibre-mediumitalic-webfont.woff2') format('woff2'),
-         url('prozalibre-mediumitalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'proza_libreregular';
-    src: url('prozalibre-regular-webfont.woff2') format('woff2'),
-         url('prozalibre-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'proza_libresemibold';
-    src: url('prozalibre-semibold-webfont.woff2') format('woff2'),
-         url('prozalibre-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'proza_libresemibold_italic';
-    src: url('prozalibre-semibolditalic-webfont.woff2') format('woff2'),
-         url('prozalibre-semibolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
